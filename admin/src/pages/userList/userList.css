@@ -1,0 +1,50 @@
+.userList{
+    flex: 4;
+    background-color: #e5e5e5;
+    padding-top: 36px;
+    padding-left: 36px;
+    border-bottom-right-radius: 24px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.userListUser{
+    display: flex;
+    align-items: center;
+}
+.userListImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.userListEdit{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #3bb077;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.userListDelete{
+color: red;
+cursor: pointer;
+}
+div.MuiDataGrid-columnHeaderTitle{
+    font-weight: 800;
+    color: 	#cc0000;
+    font-size: 18px;
+}
+.MuiDataGrid-toolbarContainer .MuiTouchRipple-root{
+    border: 1px solid 	#272727!important;
+    box-shadow: 12px 12px 12px -11px rgb(0 0 0 / 75%);
+}
+.MuiDataGrid-cellContent{
+    color: #272727;
+    font-weight: 700;
+}
+.MuiTablePagination-displayedRows{
+    font-weight: 700!important;
+    color: #cc0000;
+}

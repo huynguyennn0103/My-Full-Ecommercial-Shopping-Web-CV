@@ -1,0 +1,12 @@
+.analytics{
+    flex: 4;
+
+}
+.chart-pie{
+    display: flex;
+}
+.chart {
+    margin: 20px;
+    padding: 20px;
+  }
+

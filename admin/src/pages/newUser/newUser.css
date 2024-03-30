@@ -1,0 +1,80 @@
+.newUser {
+    flex: 4;
+    padding: 48px;
+  }
+  .newUserTitle{
+    padding: 12px 0px;
+    color:	#cc0000 ;
+    margin-bottom: 18px;
+    text-align: center;
+    border-radius: 12px;
+    background-color: 	#e2b9b6;
+    box-shadow: 12px 12px 12px -11px rgb(0 0 0 / 75%);
+  }
+  .newUserForm {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 36px;
+    background-color: #e5e5e5;
+    border-radius: 14px;
+    box-shadow: 12px 12px 12px -11px rgb(0 0 0 / 75%);
+  }
+  
+  .newUserItem {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 48px;
+  }
+  
+  .newUserItem > label {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color:#ff0000
+  }
+  
+  .newUserItem > input {
+    height: 20px;
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 12px 11px 12px -12px rgb(0 0 0 / 75%);
+  }
+  
+  /* > : direct parent */
+  .newUserGender > input {
+    margin-top: 15px;
+    padding: 12px;
+    box-shadow: 12px 11px 12px -12px rgb(0 0 0 / 75%);
+  }
+  
+  .newUserGender>label{
+      margin: 10px;
+      font-size: 18px;
+      color: #555;
+  }
+  
+  .newUserSelect{
+      height: 40px;
+      border-radius: 5px;
+      padding: 12px;
+      box-shadow: 12px 11px 12px -12px rgb(0 0 0 / 75%);
+  }
+  
+  .newUserButton{
+      width: 200px;
+      border: none;
+      background-color: #ff0000;
+      color: white;
+      padding: 12px 12px;
+      font-weight: 600;
+      border-radius: 10px;
+      margin-top: 30px;
+      cursor: pointer;
+      height: 40px!important;
+      color: white !important;
+      margin-left: 48px;
+  }

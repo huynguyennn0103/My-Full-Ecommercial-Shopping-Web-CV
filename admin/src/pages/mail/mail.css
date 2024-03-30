@@ -1,0 +1,68 @@
+.Mail{
+    flex: 4;
+    background-color: #a3a3a3;
+    padding-top: 5px;
+    padding-left: 36px;
+    border-bottom-right-radius: 24px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Mail h2{
+    text-align: center;
+    color: #cc0000;
+    font-size: 32px;
+}
+.MailContainer{
+    width: 38%;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #e5e5e5;
+    box-shadow: 12px 12px 12px -11px rgba(0, 0, 0, 0.75);
+    position: relative;
+}
+.setting-color{
+    position: absolute;
+    right: 19%;
+    top: 12%;
+    display: flex;
+    flex-direction: column;
+    width: 48px;
+}
+.setting-color button{
+    position: absolute;
+    cursor: pointer;
+}
+.setting-color .color1{
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    border: none;
+    background-color: #ffc9c9;
+    box-shadow: 12px 13px 12px -10px rgba(0, 0, 0, 0.75);
+    left: 1px;
+    top: 26px;
+}
+.setting-color .color2{
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    border: none;
+    background-color: #282828;
+    box-shadow: 12px 13px 12px -10px rgba(0, 0, 0, 0.75);
+    left: 1px;
+    top: 58px;
+}
+
+.setting-color .color3{
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    border: none;
+    background-color: #e5e5e5;
+    box-shadow: 12px 13px 12px -10px rgba(0, 0, 0, 0.75);
+    left: 1px;
+    top: 90px;
+}

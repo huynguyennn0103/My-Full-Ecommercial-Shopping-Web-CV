@@ -1,0 +1,14 @@
+.setting {
+    flex: 4;
+    padding: 20px;
+}
+
+.signoutBtn{
+    border-radius: 8%;
+    border: none;
+    color: #fff;
+    background-color: red;
+    font-weight: bold;
+    padding: 5px 10px ;
+    cursor: pointer;
+}

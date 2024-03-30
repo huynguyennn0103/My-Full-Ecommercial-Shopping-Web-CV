@@ -1,0 +1,54 @@
+.transactionList{
+    flex: 4;
+    background-color: #e5e5e5;
+    padding-top: 36px;
+    padding-left: 36px;
+    border-bottom-right-radius: 24px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.transactionListItem{
+    display: flex;
+    align-items: center;
+}
+
+.transactionListImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.transactionListItem{
+    display: flex;
+    align-items: center;
+    position: relative;
+    min-width: 42px;
+    min-height: 42px;
+}
+
+.transactionListImg.img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+.transactionListImg.img:hover{
+    opacity: 0;
+}
+
+.transactionListImg.quantity {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute
+}
